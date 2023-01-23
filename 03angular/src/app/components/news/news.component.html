@@ -1,0 +1,12 @@
+<p>news works!</p>
+<br>
+<br>
+<hr>
+<app-footer #footer (outter)="runSub($event)"></app-footer>
+
+<div>
+
+    我是新闻组件
+</div>
+<button (click)="getSubMsg()">获取子组件的MSG</button>
+<button (click)="exeSubMethod()">执行子组件的方法</button>

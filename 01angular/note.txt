@@ -1,0 +1,36 @@
+#创建项目
+ng new 项目名称
+
+#创建组件
+ng g component 组件名称
+
+#启动项目
+ng serve --open
+
+#创建服务
+ng g service 服务名称
+#注：使用时，去app.module.ts文件中，加入：import { StorageService} from './services/storage.service'
+      加入到：providers: [StorageService],
+      使用的组件中也要加入import { StorageService} from '../../services/storage.service'
+app.module.ts 里面加入下面的代码
+//手动写入用于双向绑定用的组件
+import {FormsModule} from '@angular/forms''
+ imports: [
+    BrowserModule,
+    AppRoutingModule,
+    //手动写入用于双向绑定用的组件
+    FormsModule
+  ],
+
+ng g component search
+ng g component todolist
+
+
+#ViewChild
+<div #myBox>
+@ViewChild('myBox') myBox: any;
+
+#组件之间传值
+@input
+
+

@@ -1,0 +1,11 @@
+
+#组件之间传值
+@input
+
+
+#非父子组件之间通信，使用service 或者localstorage
+
+#学习网站
+wwww.angular.cn
+
+使用rxjs来取得异步的数据

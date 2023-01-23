@@ -1,0 +1,8 @@
+{
+   "name": "mytools",
+   "version": "1.0.0",
+   "main": "index.js",
+   "description": "我的第三方包做成实例",
+   "keywords": ["my","tools"],
+   "license": "ISC"
+}

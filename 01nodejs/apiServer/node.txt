@@ -1,0 +1,16 @@
+#初期化 package.json文件
+npm init -y
+
+npm i express
+npm i cors@2.8.5
+npm i mysql
+
+#密码加密
+npm i bcryptjs
+
+#数据验证模块
+npm i @hapi/joi
+npm i @escook/express-joi
+
+#删除模块
+npm uninstall

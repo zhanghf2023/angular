@@ -1,0 +1,15 @@
+#安装的全局tools
+#切换npm服务器的工具
+npm i -g nrm
+#启动js的工具，js变更后自动启动服务器
+npm i nodemon
+#安装mysql
+npm install mysql
+
+#用户身份认证
+npm i jsonwebtoken express-jwt
+
+#安装anuglar 环境
+npm i -g @angular/cli
+
+#注意点：
